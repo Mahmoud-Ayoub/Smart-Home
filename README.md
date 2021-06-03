@@ -7,7 +7,7 @@ An automated home that requires a user password to open the door and to have acc
 <li>LCD</li>
 <li>Keypad 4*4</li>
 <li>Temperature meter</li>
-<li>motor drivers</li>
+<li>Motor drivers</li>
 </ul>
  
 ## System MCAL:
