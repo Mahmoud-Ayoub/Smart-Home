@@ -3,11 +3,20 @@ This is a smart home system based on ATMEGA 16 microcontroller.
 ## Description
 An automated home that requires a user password to open the door and to have access to the devices. An automatic air conditioner and heater operates according to the home temperature.
 ## System HAL:
-LCD 
-Keypad 4*4
-Temperature meter
-motor drivers
+<ul>
+<li>LCD</li>
+<li>Keypad 4*4</li>
+<li>Temperature meter</li>
+<li>motor drivers</li>
+</ul>
+ 
 ## System MCAL:
-GPIO
-ADC
-Internal EEPROM
+<ul>
+<li>GPIO</li>
+<li>ADC</li>
+<li>Internal EEPROM</li>
+</ul>
+ 
+
+
+
