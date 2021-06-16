@@ -30,13 +30,13 @@ int main(void)
     while (1) 
     {
 	
-		num = ADC_read() / 4 ; 
-		itoa (num , temp , 10); 
+		 num = ADC_read() / 4 ; 
+		 itoa (num , temp , 10); 
 		 lcd_outstr(temp) ;
 		 lcd_outchar(0xDF) ; 
 		 lcd_outstr("C");
 		 _delay_ms(20) ;
-	     lcd_home() ; 
+	         lcd_home() ; 
 		
 		 if (num > 25 ) {             // too hot 
 			 air_on() ;
